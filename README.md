@@ -5,13 +5,12 @@ This repository contains repro project for rendering bug in Unity.
 There is a shader in this project that projects a decal on top of surface using depth buffer projection technique.
 
 In scene view camera is rendering without MSAA and decal is rendered without any glitches.
-In game view camera is rendering with both MSAA and depth priming enabled at the same time. This combination is causing rendering glitches.
+In game view (and in build) camera is rendering with both MSAA and depth priming enabled at the same time. This combination is causing rendering glitches.
 
 Example:
 ![Preview.png](Preview/Preview.png)
 
 https://github.com/alexmalyutindev/depth-priming-msaa-bug/assets/25569360/9a5e380d-0e48-4de8-ac8f-c3f3bbd07c80
-
 
 This bug reproduces in Unity 2021.3.14f1, 2022.2.17f1, 2022.2.21f1, 2023.1.0b15. Other versions were not tested.
 Setup:
