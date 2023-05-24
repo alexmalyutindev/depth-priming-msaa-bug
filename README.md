@@ -10,6 +10,9 @@ In game view camera is rendering with both MSAA and depth priming enabled at the
 Example:
 ![Preview.png](Preview/Preview.png)
 
+https://github.com/alexmalyutindev/depth-priming-msaa-bug/assets/25569360/9a5e380d-0e48-4de8-ac8f-c3f3bbd07c80
+
+
 This bug reproduces in Unity 2021.3.14f1, 2022.2.17f1, 2022.2.21f1, 2023.1.0b15. Other versions were not tested.
 Setup:
 - Windows 10 22H2 on Core i7-7700HQ or macOS Ventura 13.0.1 on M1 Pro
